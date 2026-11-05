@@ -15,7 +15,22 @@ Classify breast mass fine-needle aspirate (FNA) samples as malignant or benign, 
 ## 3. GitHub Repository
 https://github.com/RK2601/ML-Assignment-2
 
-## 4. Models Used
+## 4. Project Structure
+
+```
+ML-Assignment-2/
+├── model/              # Saved .pkl model files
+├── app.py              # Streamlit web app
+├── train_models.py     # Training script
+├── evaluate.py         # Evaluation script (run on BITS Virtual Lab)
+├── data.csv            # Full dataset (Breast Cancer Wisconsin)
+├── test_data.csv       # Test split
+├── results.csv         # Model evaluation results
+├── requirements.txt    # Dependencies
+└── README.md
+```
+
+## 5. Models Used
 
 ### Comparison Table (test set, 114 rows)
 
